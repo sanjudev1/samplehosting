@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 Task 2 - Travel Website</title>
+</head>
+<body>
+
+    <!-- DAY 3 - TASK 2: TRAVEL WEBSITE (Marquee + Anchor) -->
+
+    <!-- OFFER TICKER -->
+    <marquee style="background:#ff6348;color:white;padding:8px;" scrollamount="4"
+             onmouseover="this.stop()" onmouseout="this.start()">
+        🔥 SUMMER SALE: 40% OFF international packages! &nbsp;|&nbsp;
+        ✈️ Maldives from ₹29,999! &nbsp;|&nbsp;
+        🏖️ Use code: TRAVEL2026
+    </marquee>
+
+    <!-- NAVIGATION -->
+    <div style="background:#2f3542;padding:12px;text-align:center;">
+        <a href="#home" style="color:white;text-decoration:none;padding:12px 18px;">🏠 Home</a>
+        <a href="#packages" style="color:white;text-decoration:none;padding:12px 18px;">📦 Packages</a>
+        <a href="#gallery" style="color:white;text-decoration:none;padding:12px 18px;">📷 Gallery</a>
+        <a href="#contact" style="color:white;text-decoration:none;padding:12px 18px;">📞 Contact</a>
+    </div>
+
+    <!-- HERO -->
+    <div id="home" style="text-align:center;padding:40px;background:#dfe6e9;">
+        <h1>✈️ WanderLust Travels</h1>
+        <h3><em>"Explore the World, One Adventure at a Time"</em></h3>
+        <a href="#packages" style="background:#ff6348;color:white;padding:12px 30px;text-decoration:none;">
+            Explore Packages →
+        </a>
+    </div>
+
+    <hr>
+
+    <!-- SCROLLING DESTINATIONS -->
+    <h2 style="padding:0 20px;">🌍 Popular Destinations</h2>
+    <marquee scrollamount="3" onmouseover="this.stop()" onmouseout="this.start()">
+        <a href="#pkg1"><img src="https://via.placeholder.com/180x120/00b894/fff?text=Maldives" alt="Maldives"></a>&nbsp;
+        <a href="#pkg2"><img src="https://via.placeholder.com/180x120/6c5ce7/fff?text=Switzerland" alt="Switzerland"></a>&nbsp;
+        <a href="#pkg3"><img src="https://via.placeholder.com/180x120/fdcb6e/333?text=Dubai" alt="Dubai"></a>&nbsp;
+        <img src="https://via.placeholder.com/180x120/e17055/fff?text=Paris" alt="Paris">&nbsp;
+        <img src="https://via.placeholder.com/180x120/e84393/fff?text=Tokyo" alt="Tokyo">
+    </marquee>
+
+    <hr>
+
+    <!-- PACKAGES -->
+    <div id="packages" style="padding:20px;">
+        <h2>📦 Travel Packages</h2>
+
+        <div id="pkg1" style="border:2px solid #00b894;padding:20px;margin:15px 0;">
+            <img src="https://via.placeholder.com/400x200/00b894/fff?text=Maldives+Paradise" alt="Maldives" width="400">
+            <h3>🏝️ Maldives Paradise — 5D/4N</h3>
+            <p><strong>Highlights:</strong> Water Villa, Snorkeling, Sunset Cruise, Spa</p>
+            <p><del>₹89,999</del> <strong><ins>₹54,999</ins></strong>/person</p>
+            <a href="mailto:book@travel.com?subject=Maldives+Booking" style="background:#00b894;color:white;padding:8px 20px;text-decoration:none;">📧 Book via Email</a>
+            &nbsp;
+            <a href="tel:+919876543210" style="background:#0984e3;color:white;padding:8px 20px;text-decoration:none;">📞 Call</a>
+        </div>
+
+        <div id="pkg2" style="border:2px solid #6c5ce7;padding:20px;margin:15px 0;">
+            <img src="https://via.placeholder.com/400x200/6c5ce7/fff?text=Swiss+Alps" alt="Switzerland" width="400">
+            <h3>🏔️ Swiss Alps Adventure — 7D/6N</h3>
+            <p><strong>Highlights:</strong> Jungfrau, Zurich, Interlaken, Chocolate Factory</p>
+            <p><del>₹1,99,999</del> <strong><ins>₹1,29,999</ins></strong>/person</p>
+            <a href="mailto:book@travel.com?subject=Swiss+Booking" style="background:#6c5ce7;color:white;padding:8px 20px;text-decoration:none;">📧 Book via Email</a>
+            &nbsp;
+            <a href="tel:+919876543210" style="background:#0984e3;color:white;padding:8px 20px;text-decoration:none;">📞 Call</a>
+        </div>
+
+        <div id="pkg3" style="border:2px solid #fdcb6e;padding:20px;margin:15px 0;">
+            <img src="https://via.placeholder.com/400x200/fdcb6e/333?text=Dubai+Luxury" alt="Dubai" width="400">
+            <h3>🏙️ Dubai Luxury Tour — 4D/3N</h3>
+            <p><strong>Highlights:</strong> Burj Khalifa, Desert Safari, Dubai Mall</p>
+            <p><del>₹69,999</del> <strong><ins>₹44,999</ins></strong>/person</p>
+            <a href="mailto:book@travel.com?subject=Dubai+Booking" style="background:#fdcb6e;color:#333;padding:8px 20px;text-decoration:none;">📧 Book via Email</a>
+            &nbsp;
+            <a href="tel:+919876543210" style="background:#0984e3;color:white;padding:8px 20px;text-decoration:none;">📞 Call</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- GALLERY -->
+    <div id="gallery" style="padding:20px;">
+        <h2>📷 Travel Gallery</h2>
+        <marquee direction="left" scrollamount="2" onmouseover="this.stop()" onmouseout="this.start()">
+            <img src="https://via.placeholder.com/150x100/ff7675/fff?text=Beach" alt="Beach">&nbsp;
+            <img src="https://via.placeholder.com/150x100/74b9ff/fff?text=Ocean" alt="Ocean">&nbsp;
+            <img src="https://via.placeholder.com/150x100/55efc4/fff?text=Forest" alt="Forest">&nbsp;
+            <img src="https://via.placeholder.com/150x100/a29bfe/fff?text=Mountains" alt="Mountains">&nbsp;
+            <img src="https://via.placeholder.com/150x100/ffeaa7/333?text=Desert" alt="Desert">
+        </marquee>
+        <marquee direction="right" scrollamount="2" onmouseover="this.stop()" onmouseout="this.start()">
+            <img src="https://via.placeholder.com/150x100/00cec9/fff?text=Temple" alt="Temple">&nbsp;
+            <img src="https://via.placeholder.com/150x100/e17055/fff?text=City" alt="City">&nbsp;
+            <img src="https://via.placeholder.com/150x100/0984e3/fff?text=Lake" alt="Lake">&nbsp;
+            <img src="https://via.placeholder.com/150x100/6c5ce7/fff?text=Snow" alt="Snow">&nbsp;
+            <img src="https://via.placeholder.com/150x100/e84393/fff?text=Island" alt="Island">
+        </marquee>
+    </div>
+
+    <hr>
+
+    <!-- CONTACT -->
+    <div id="contact" style="padding:20px;background:#dfe6e9;">
+        <h2>📞 Contact Us</h2>
+        <p>📧 <a href="mailto:info@wanderlust.com">info@wanderlust.com</a></p>
+        <p>📞 <a href="tel:+914412345678">+91 44 1234 5678</a></p>
+        <p>🌐 <a href="https://www.google.com" target="_blank" rel="noopener">Visit Website ↗</a></p>
+    </div>
+
+    <!-- FOOTER -->
+    <div style="background:#2f3542;color:white;padding:15px;text-align:center;">
+        <p>© 2026 WanderLust Travels | <a href="#home" style="color:#ff6348;">⬆ Back to Top</a></p>
+    </div>
+
+</body>
+</html>
